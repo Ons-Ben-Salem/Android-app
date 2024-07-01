@@ -1,0 +1,23 @@
+<!-- activity_main.xml -->
+<!-- activity_main.xml -->
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activity.PartnersActivity">
+
+    <!-- GridView pour afficher les images de restaurant -->
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:numColumns="2"
+        android:verticalSpacing="10dp"
+        android:horizontalSpacing="10dp"
+        android:padding="10dp"
+        android:columnWidth="150dp"
+        android:stretchMode="columnWidth"
+        android:gravity="center"
+        android:background="@android:color/transparent" />/> <!-- Couleur de fond de la grille pour une séparation plus visible -->
+
+</RelativeLayout>
